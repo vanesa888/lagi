@@ -11,11 +11,11 @@
 	<link href="img/favicon.ico" rel="shortcut icon"/>
 
 	<!-- Stylesheets -->
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
+	<link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}"/>
+	<link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}"/>
+	<link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}"/>
 	<!-- Main Stylesheets -->
-	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="{{asset('css/style.css')}}"/>
 
 
 	<!--[if lt IE 9]>
@@ -64,7 +64,7 @@
 	<!-- Header section end-->
 
 	<!-- Page top section -->
-	<section class="page-top-section set-bg" data-setbg="img/1.JPEG">
+	<section class="page-top-section set-bg" data-setbg="{{asset('img/1.JPEG')}}">
 		<h2>Contact</h2>
 		<div class="hero-social-warp">
 			<p>Follow us on Social MEdia</p>
@@ -103,7 +103,7 @@
 				</div>
 				<div class="col-lg-4 col-sm-5">
 					<div class="map">
-						<img src="img/portfolio/32.JPEG">
+						<img src="{{asset('img/portfolio/32.JPEG')}}">
 					</div>
 				<div class="contact-text">
 					<p>About Us </p>
@@ -161,10 +161,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	
 	
 	<!--====== Javascripts & Jquery ======-->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/main.js"></script>
+	<script src="{{asset('js/jquery-3.2.1.min.js')}}"></script>
+	<script src="{{asset('js/bootstrap.min.js')}}"></script>
+	<script src="{{asset('js/owl.carousel.min.js')}}"></script>
+	<script src="{{asset('js/main.js')}}"></script>
 
 	</body>
 </html>

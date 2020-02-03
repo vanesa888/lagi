@@ -10,12 +10,12 @@
 	<link href="img/favicon.ico" rel="shortcut icon"/>
 
 	<!-- Stylesheets -->
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
+	<link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}"/>
+	<link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}"/>
+	<link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}"/>
 
 	<!-- Main Stylesheets -->
-	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="{{asset('css/style.css')}}"/>
 
 
 	<!--[if lt IE 9]>
@@ -66,21 +66,21 @@
 	<!-- Hero section -->
 	<section class="hero-section">
 		<div class="hero-slider owl-carousel">
-			<div class="hs-item set-bg" data-setbg="img/1.JPEG" data-hash="slide-1">
+			<div class="hs-item set-bg" data-setbg="{{asset('img/1.jpeg')}}" data-hash="slide-1">
 				<div class="container">
 					<h2>MY Phone Is Beautiful</h2>
 					<a href="#" class="site-btn">Read More <i class="fa fa-angle-double-right"></i></a>
 				</div>
-				<div class="col-lg-4 col-md-7" data-setbg="img/16.JPEG">
+				<div class="col-lg-4 col-md-7" data-setbg="{{asset('img/16.JPEG')}}">
 					<a href="#slide-2" class="nest-hs-btn">Next</a>
 				</div>
 			</div>
-			<div class="hs-item set-bg" data-setbg="img/2.JPEG" data-hash="slide-2">
+			<div class="hs-item set-bg" data-setbg="{{asset('img/2.JPEG')}}" data-hash="slide-2">
 				<div class="container">
 					<h2>Style is Everything</h2>
 					<a href="#" class="site-btn">Read More <i class="fa fa-angle-double-right"></i></a>
 				</div>
-				<div class="next-hs set-bg" data-setbg="img/3.JPEG">
+				<div class="next-hs set-bg" data-setbg="{{asset('img/3.JPEG')}}">
 					<a href="#slide-1" class="nest-hs-btn">Next</a>
 				</div>
 			</div>
@@ -88,11 +88,8 @@
 		<div class="hero-social-warp">
 			<p>Follow us on Social MEdia</p>
 			<div class="hero-social-links">
-				<!--a href="#"><i class="fa fa-behance"></i></a-->
 				<a href="https://www.instagram.com/84detik/"><i class="fa fa-instagram"></i></a>
 				<a href="https://twitter.com/itsuitsalwaysu"><i class="fa fa-twitter"></i></a>
-				<!--a href="#"><i class="fa fa-facebook"></i></a-->
-				<!--a href="#"><i class="fa fa-pinterest"></i></a-->
 			</div>
 		</div>
 	</section>
@@ -103,7 +100,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-5">
-					<img src="img/17.JPEG" alt="">
+					<img src="{{asset('img/17.JPEG')}}" alt="">
 				</div>
 				<div class="col-lg-7 intro-text">
 					<span>Quotes</span>
@@ -121,74 +118,74 @@
 		<div class="container">
 			<div class="row">
 			<div class="col-lg-4 col-sm-10">
-						<img src="img/4.JPEG" alt="">
+						<img src="{{asset('img/4.JPEG')}}" alt="">
 						<p> <div class="font weight-bold text-black">Kode Product :</div> SC01 </p>
 					    <p> <div class="font weight-bold text-black">Type : </div> Xiomi, Samsung, Iphone </p>
 					    <p> <div class="font weight-bold text-black">Harga : </div> Rp. 40.000 </p>  
 			</div>
 				<div class="col-lg-4 col-sm-5">
 					<!--a href="portfolio.html" class="portfolio-item"-->
-						<img src="img/6.JPEG" alt="">
+						<img src="{{asset('img/6.JPEG')}}" alt="">
 				    <p> <div class="font weight-bold text-black">Kode Product :</div> SC02 </p>
 					<p> <div class="font weight-bold text-black">Type : </div> Xiomi, Samsung, Iphone </p>
 					<p> <div class="font weight-bold text-black">Harga : </div> Rp. 40.000 </p>     		
 				</div>
 				<div class="col-lg-4 col-sm-5">
-						<img src="img/5.JPEG" alt="">
+						<img src="{{asset('img/5.JPEG')}}" alt="">
 						<p> <div class="font weight-bold text-black">Kode Product :</div> SC03 </p>
 						<p> <div class="font weight-bold text-black">Type : </div> Xiomi, Samsung, Iphone </p>
 						<p> <div class="font weight-bold text-black">Harga : </div> Rp. 40.000 </p> 
 				</div>
 				<div class="col-lg-4 col-sm-5">
-						<img src="img/7.JPEG" alt="">
+						<img src="{{asset('img/7.JPEG')}}" alt="">
 						<p> <div class="font weight-bold text-black">Kode Product :</div> SC04 </p>
 						<p> <div class="font weight-bold text-black">Type : </div> Xiomi, Samsung, Iphone </p>
 						<p> <div class="font weight-bold text-black">Harga : </div> Rp. 40.000 </p> 
 				</div>
 				<div class="col-lg-4 col-sm-5">
-						<img src="img/8.JPEG" alt="">
+						<img src="{{asset('img/8.JPEG')}}" alt="">
 						<p> <div class="font weight-bold text-black">Kode Product :</div> SC05 </p>
 						<p> <div class="font weight-bold text-black">Type : </div> Xiomi, Samsung, Iphone </p>
 						<p> <div class="font weight-bold text-black">Harga : </div> Rp. 40.000 </p>
 				</div>	
 				<div class="col-lg-4 col-sm-5">	
-						<img src="img/9.JPEG" alt="">
+						<img src="{{asset('img/9.JPEG')}}" alt="">
 						<p> <div class="font weight-bold text-black">Kode Product :</div> SC06 </p>
 						<p> <div class="font weight-bold text-black">Type : </div> Xiomi, Samsung, Iphone </p>
 						<p> <div class="font weight-bold text-black">Harga : </div> Rp. 40.000 </p>
 				</div>	
 				<div class="col-lg-4 col-sm-5">
-						<img src="img/10.JPEG" alt="">
+						<img src="{{asset('img/10.JPEG')}}" alt="">
 						<p> <div class="font weight-bold text-black">Kode Product :</div> SC07 </p>
 						<p> <div class="font weight-bold text-black">Type : </div> Xiomi, Samsung, Iphone </p>
 						<p> <div class="font weight-bold text-black">Harga : </div> Rp. 40.000 </p>
 				</div>	
 				<div class="col-lg-4 col-sm-5">	
-						<img src="img/11.JPEG" alt="">
+						<img src="{{asset('img/11.JPEG')}}" alt="">
 						<p> <div class="font weight-bold text-black">Kode Product :</div> SC08 </p>
 						<p> <div class="font weight-bold text-black">Type : </div> Xiomi, Samsung, Iphone </p>
 						<p> <div class="font weight-bold text-black">Harga : </div> Rp. 40.000 </p>
 				</div>	
 				<div class="col-lg-4 col-sm-5">
-						<img src="img/12.JPEG" alt="">
+						<img src="{{asset('img/12.JPEG')}}" alt="">
 						<p> <div class="font weight-bold text-black">Kode Product :</div> SC09 </p>
 						<p> <div class="font weight-bold text-black">Type : </div> Xiomi, Samsung, Iphone </p>
 						<p> <div class="font weight-bold text-black">Harga : </div> Rp. 40.000 </p>
 				</div>	
 				<div class="col-lg-4 col-sm-5">
-						<img src="img/13.JPEG" alt="">
+						<img src="{{asset('img/13.JPEG')}}" alt="">
 						<p> <div class="font weight-bold text-black">Kode Product :</div> SC10 </p>
 						<p> <div class="font weight-bold text-black">Type : </div> Xiomi, Samsung, Iphone </p>
 						<p> <div class="font weight-bold text-black">Harga : </div> Rp. 40.000 </p>
 				</div>	
 				<div class="col-lg-4 col-sm-5">
-						<img src="img/14.JPEG" alt="">
+						<img src="{{asset('img/14.JPEG')}}" alt="">
 						<p> <div class="font weight-bold text-black">Kode Product :</div> SC11 </p>
 						<p> <div class="font weight-bold text-black">Type : </div> Xiomi, Samsung, Iphone </p>
 						<p> <div class="font weight-bold text-black">Harga : </div> Rp. 40.000 </p>
 				</div>	
 				<div class="col-lg-4 col-sm-5">
-						<img src="img/15.JPEG" alt="">
+						<img src="{{asset('img/15.JPEG')}}" alt="">
 						<p> <div class="font weight-bold text-black">Kode Product :</div> SC12 </p>
 						<p> <div class="font weight-bold text-black">Type : </div> Xiomi, Samsung, Iphone </p>
 						<p> <div class="font weight-bold text-black">Harga : </div> Rp. 40.000 </p>
@@ -203,7 +200,7 @@
 		<div class="container">
 			<div class="blog-slider owl-carousel">
 				<div class="blog-item">
-					<div class="blog-thumb set-bg" data-setbg="img/16.JPEG">
+					<div class="blog-thumb set-bg" data-setbg="{{asset('img/16.JPEG')}}">
 						<div class="blog-date">
 							<h2>20</h2>
 							<p>Jan</p>									
@@ -216,7 +213,7 @@
 					<center><p>Case berwarna pink dn warna pink dengan tambahan gambar boneka lucu membuat case hp mu semakin unik dan cantik .</p></center>
 				</div>
 				<div class="blog-item">
-					<div class="blog-thumb set-bg" data-setbg="img/17.JPEG">
+					<div class="blog-thumb set-bg" data-setbg="{{asset('img/17.JPEG')}}">
 						<div class="blog-date">
 							<h2>20</h2>
 							<p>Jan</p>									
@@ -229,7 +226,7 @@
 					<center><p>soft case bening dengan sticker astronot dan bintang mempercatik case dengan gaya yang sederhana</p></center>
 				</div>
 				<div class="blog-item">
-					<div class="blog-thumb set-bg" data-setbg="img/18.JPEG">
+					<div class="blog-thumb set-bg" data-setbg="{{asset('img/18.JPEG')}}">
 						<div class="blog-date">
 							<h2>20</h2>
 							<p>Jan</p>									
@@ -289,10 +286,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	
 	
 	<!--====== Javascripts & Jquery ======-->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/main.js"></script>
+	<script src="{{asset('js/jquery-3.2.1.min.js')}}"></script>
+	<script src="{{asset('js/bootstrap.min.js')}}"></script>
+	<script src="{{asset('js/owl.carousel.min.js')}}"></script>
+	<script src="{{asset('js/main.js')}}"></script>
 
 	</body>
 </html>

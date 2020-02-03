@@ -11,12 +11,12 @@
 	<link href="img/favicon.ico" rel="shortcut icon"/>
 
 	<!-- Stylesheets -->
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
+	<link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}"/>
+	<link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}"/>
+	<link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}"/>
 
 	<!-- Main Stylesheets -->
-	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="{{asset('css/style.css')}}"/>
 
 
 	<!--[if lt IE 9]>
@@ -62,7 +62,7 @@
 	<!-- Header section end-->
 
 	<!-- Page top section -->
-	<section class="page-top-section set-bg" data-setbg="img/portfolio/23.JPEG">
+	<section class="page-top-section set-bg" data-setbg="{{asset('img/portfolio/23.JPEG')}}">
 		<h2>Lookbook</h2>
 		<div class="hero-social-warp">
 			<p>Follow us on Social MEdia</p>
@@ -82,114 +82,114 @@
 			<li><a href="#">Cruise Collection</a></li>
 			<li><a href="#">Men Collection</a></li-->
 		</ul>
-		<img src="img/portfolio/21.JPEGjpg" alt="" class="portfolio-big-img">
+		<img src="{{asset('img/portfolio/21.JPEG')}}" alt="" class="portfolio-big-img">
 		<!-- Related portfolio slider -->
 		<div class="container">
 			<div class="row">
 			<div class="col-lg-4 col-sm-5">
-						<img src="img/portfolio/22.JPEG" alt="">
+						<img src="{{('img/portfolio/22.JPEG')}}" alt="">
 						<p> <div class="font weight-bold text-black">Kode Product :</div> SC13 </p>
 						<p> <div class="font weight-bold text-black">Type : </div> Xiomi, Samsung, Iphone </p>
 						<p> <div class="font weight-bold text-black">Harga : </div> Rp. 40.000 </p>
 			</div>	
 			<div class="col-lg-4 col-sm-5">
-						<img src="img/portfolio/23.JPEG" alt="">
+						<img src="{{asset('img/portfolio/23.JPEG')}}" alt="">
 						<p> <div class="font weight-bold text-black">Kode Product :</div> SC14 </p>
 						<p> <div class="font weight-bold text-black">Type : </div> Xiomi, Samsung, Iphone </p>
 						<p> <div class="font weight-bold text-black">Harga : </div> Rp. 40.000 </p>
 			</div>
 			<div class="col-lg-4 col-sm-5">
-						<img src="img/portfolio/24.JPEG" alt="">
+						<img src="{{asset('img/portfolio/24.JPEG')}}" alt="">
 						<p> <div class="font weight-bold text-black">Kode Product :</div> SC15 </p>
 						<p> <div class="font weight-bold text-black">Type : </div> Xiomi, Samsung, Iphone </p>
 						<p> <div class="font weight-bold text-black">Harga : </div> Rp. 40.000 </p>
 			</div>
 			<div class="col-lg-4 col-sm-5">
-						<img src="img/portfolio/25.JPEG" alt="">
+						<img src="{{asset('img/portfolio/25.JPEG')}}" alt="">
 						<p> <div class="font weight-bold text-black">Kode Product :</div> SC16 </p>
 						<p> <div class="font weight-bold text-black">Type : </div> Xiomi, Samsung, Iphone </p>
 						<p> <div class="font weight-bold text-black">Harga : </div> Rp. 40.000 </p>
 			</div>
 			<div class="col-lg-4 col-sm-5">
-						<img src="img/portfolio/26.JPEG" alt="">
+						<img src="{{asset('img/portfolio/26.JPEG')}}" alt="">
 						<p> <div class="font weight-bold text-black">Kode Product :</div> SC17 </p>
 						<p> <div class="font weight-bold text-black">Type : </div> Xiomi, Samsung, Iphone </p>
 						<p> <div class="font weight-bold text-black">Harga : </div> Rp. 40.000 </p>
 			</div>
 			<div class="col-lg-4 col-sm-5">
-						<img src="img/portfolio/27.JPEG" alt="">
+						<img src="{{asset('img/portfolio/27.JPEG')}}" alt="">
 						<p> <div class="font weight-bold text-black">Kode Product :</div> SC18 </p>
 						<p> <div class="font weight-bold text-black">Type : </div> Xiomi, Samsung, Iphone </p>
 						<p> <div class="font weight-bold text-black">Harga : </div> Rp. 40.000 </p>
 			</div>
 			<div class="col-lg-4 col-sm-5">
-						<img src="img/portfolio/28.JPEG" alt="">
+						<img src="{{asset('img/portfolio/28.JPEG')}}" alt="">
 						<p> <div class="font weight-bold text-black">Kode Product :</div> SC19 </p>
 						<p> <div class="font weight-bold text-black">Type : </div> Xiomi, Samsung, Iphone </p>
 						<p> <div class="font weight-bold text-black">Harga : </div> Rp. 40.000 </p>
 			</div>
 			<div class="col-lg-4 col-sm-5">
-						<img src="img/portfolio/29.JPEG" alt="">
+						<img src="{{asset('img/portfolio/29.JPEG')}}" alt="">
 						<p> <div class="font weight-bold text-black">Kode Product :</div> SC20 </p>
 						<p> <div class="font weight-bold text-black">Type : </div> Xiomi, Samsung, Iphone </p>
 						<p> <div class="font weight-bold text-black">Harga : </div> Rp. 40.000 </p>
 			</div>
 			<div class="col-lg-4 col-sm-5">
-						<img src="img/portfolio/30.JPEG" alt="">
+						<img src="{{asset('img/portfolio/30.JPEG')}}" alt="">
 						<p> <div class="font weight-bold text-black">Kode Product :</div> SC21 </p>
 						<p> <div class="font weight-bold text-black">Type : </div> Xiomi, Samsung, Iphone </p>
 						<p> <div class="font weight-bold text-black">Harga : </div> Rp. 40.000 </p>
 			</div>
 			<div class="col-lg-4 col-sm-5">
-						<img src="img/portfolio/31.JPEG" alt="">
+						<img src="{{asset('img/portfolio/31.JPEG')}}" alt="">
 						<p> <div class="font weight-bold text-black">Kode Product :</div> SC22 </p>
 						<p> <div class="font weight-bold text-black">Type : </div> Xiomi, Samsung, Iphone </p>
 						<p> <div class="font weight-bold text-black">Harga : </div> Rp. 40.000 </p>
 			</div>
 			<div class="col-lg-4 col-sm-5">
-						<img src="img/portfolio/32.JPEG" alt="">
+						<img src="{{asset('img/portfolio/32.JPEG')}}" alt="">
 						<p> <div class="font weight-bold text-black">Kode Product :</div> SC23 </p>
 						<p> <div class="font weight-bold text-black">Type : </div> Xiomi, Samsung, Iphone </p>
 						<p> <div class="font weight-bold text-black">Harga : </div> Rp. 40.000 </p>
 			</div>
 			<div class="col-lg-4 col-sm-5">
-						<img src="img/portfolio/33.JPEG" alt="">
+						<img src="{{asset('img/portfolio/33.JPEG')}}" alt="">
 						<p> <div class="font weight-bold text-black">Kode Product :</div> SC24 </p>
 						<p> <div class="font weight-bold text-black">Type : </div> Xiomi, Samsung, Iphone </p>
 						<p> <div class="font weight-bold text-black">Harga : </div> Rp. 40.000 </p>
 			</div>
 			<div class="col-lg-4 col-sm-5">
-						<img src="img/portfolio/34.JPEG" alt="">
+						<img src="{{asset('img/portfolio/34.JPEG')}}" alt="">
 						<p> <div class="font weight-bold text-black">Kode Product :</div> SC25 </p>
 						<p> <div class="font weight-bold text-black">Type : </div> Xiomi, Samsung, Iphone </p>
 						<p> <div class="font weight-bold text-black">Harga : </div> Rp. 40.000 </p>
 			</div>
 			<div class="col-lg-4 col-sm-5">
-						<img src="img/portfolio/35.JPEG" alt="">
+						<img src="{{asset('img/portfolio/35.JPEG')}}" alt="">
 						<p> <div class="font weight-bold text-black">Kode Product :</div> SC26 </p>
 						<p> <div class="font weight-bold text-black">Type : </div> Xiomi, Samsung, Iphone </p>
 						<p> <div class="font weight-bold text-black">Harga : </div> Rp. 40.000 </p>
 			</div>
 			<div class="col-lg-4 col-sm-5">
-						<img src="img/portfolio/36.JPEG" alt="">
+						<img src="{{asset('img/portfolio/36.JPEG')}}" alt="">
 						<p> <div class="font weight-bold text-black">Kode Product :</div> SC27 </p>
 						<p> <div class="font weight-bold text-black">Type : </div> Xiomi, Samsung, Iphone </p>
 						<p> <div class="font weight-bold text-black">Harga : </div> Rp. 40.000 </p>
 			</div>
 			<div class="col-lg-4 col-sm-5">
-						<img src="img/portfolio/37.JPEG" alt="">
+						<img src="{{asset('img/portfolio/37.JPEG')}}" alt="">
 						<p> <div class="font weight-bold text-black">Kode Product :</div> SC28 </p>
 						<p> <div class="font weight-bold text-black">Type : </div> Xiomi, Samsung, Iphone </p>
 						<p> <div class="font weight-bold text-black">Harga : </div> Rp. 40.000 </p>
 			</div>
 			<div class="col-lg-4 col-sm-5">
-						<img src="img/portfolio/38.JPEG" alt="">
+						<img src="{{asset('img/portfolio/38.JPEG')}}" alt="">
 						<p> <div class="font weight-bold text-black">Kode Product :</div> SC29 </p>
 						<p> <div class="font weight-bold text-black">Type : </div> Xiomi, Samsung, Iphone </p>
 						<p> <div class="font weight-bold text-black">Harga : </div> Rp. 40.000 </p>
 			</div>
 			<div class="col-lg-4 col-sm-5">
-						<img src="img/portfolio/39.JPEG" alt="">
+						<img src="{{asset('img/portfolio/39.JPEG')}}" alt="">
 						<p> <div class="font weight-bold text-black">Kode Product :</div> SC30 </p>
 						<p> <div class="font weight-bold text-black">Type : </div> Xiomi, Samsung, Iphone </p>
 						<p> <div class="font weight-bold text-black">Harga : </div> Rp. 40.000 </p>
@@ -242,10 +242,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	
 	
 	<!--====== Javascripts & Jquery ======-->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/main.js"></script>
+	<script src="{{asset('js/jquery-3.2.1.min.js')}}"></script>
+	<script src="{{asset('js/bootstrap.min.js')}}"></script>
+	<script src="{{asset('js/owl.carousel.min.js')}}"></script>
+	<script src="{{asset('js/main.js')}}"></script>
 
 	</body>
 </html>
